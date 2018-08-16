@@ -127,6 +127,7 @@ class Snake {
         tailPositions.set(i, temp);
       }
       temp = new PVector(pos.x, pos.y);
+      //Using debugger, the first time I eat food I got OutOfBoundException here, could you fix it please, I cant xD
       tailPositions.set(len-2, temp);
     }
 
